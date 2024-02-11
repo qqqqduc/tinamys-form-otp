@@ -1,7 +1,7 @@
 .form-item {
-    width: 480px;
     margin-left: 50%;
     transform: translateX(-50%);
+    width: 480px;
 }
 
 .form-item .form-input {
@@ -13,7 +13,6 @@
 }
 
 .form-item .form-input:focus {
-    border: none;
     outline: none;
     border-bottom: 1.5px solid #0070ff;
 }
@@ -22,6 +21,7 @@
     width: 480px;
     margin: auto;
     margin-top: 8px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
 .btn-login {
@@ -41,16 +41,17 @@
 }
 
 .text-suggest {
-    width: 480px;
     margin: auto;
     margin-top: 12px;
     display: flex;
     justify-content: space-between;
+    width: 480px;
 }
 
 .text-suggest .text-description {
-    color: #020B22;
+    color: #323232;
     text-decoration: underline;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
 .text-suggest .text-description:hover {
